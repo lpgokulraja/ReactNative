@@ -3,9 +3,9 @@ import EditProfile from "./EditProfile";
 
 
 
-export default function profileIndex(){
+export default function ProfileIndex({}){
    
     return(
-            <EditProfile />
+            <EditProfile/>
         )
 }
