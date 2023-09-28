@@ -20,7 +20,8 @@ const DropDown = ({ data }) => {
 
   return (
     <View>
-      {data.map((item, index) => (
+      {data.map((item, index) => {
+        return(
         <View key={index} style={styles.dropdownContainer}>
           <Text>{item.label}</Text>
           <RNPickerSelect
@@ -35,7 +36,7 @@ const DropDown = ({ data }) => {
             Go to Link
           </Text>
         </View>
-      ))}
+      )})}
     </View>
   );
 };

@@ -36,9 +36,9 @@ export default function Index11({navigation}){
         <Button title='DropDown2' onPress={()=>navigation.navigate('DropDown2')}/>
 </View>
 
-<View style={{margin:20}}>
+{/* <View style={{margin:20}}>
         <Button title='DropDown4' onPress={()=>navigation.navigate('DropDown4')}/>
-</View>
+</View> */}
 
 <View style={{margin:20}}>
         <Button title='carousel' onPress={()=>navigation.navigate('carousel')}/>
@@ -56,7 +56,39 @@ export default function Index11({navigation}){
         <Button title='Carousel4' onPress={()=>navigation.navigate('Carouselindex4')}/>
 </View>
 
+<View style={{margin:20}}>
+        <Button title='Carousel5' onPress={()=>navigation.navigate('Carouselindex5')}/>
+</View>
 
+<View style={{margin:20}}>
+        <Button title='Input' onPress={()=>navigation.navigate('Input')}/>
+</View>
+
+<View style={{margin:20}}>
+        <Button title='Input2' onPress={()=>navigation.navigate('Input2')}/>
+</View>
+
+<View style={{margin:20}}>
+        <Button title='Input3' onPress={()=>navigation.navigate('Input3')}/>
+</View>
+
+<View style={{margin:20}}>
+        <Button title='Input4' onPress={()=>navigation.navigate('Input4')}/>
+</View>
+
+<View style={{margin:20}}>
+        <Button title='Input5' onPress={()=>navigation.navigate('Input5')}/>
+</View>
+<View style={{margin:20}}>
+        <Button title='Input6' onPress={()=>navigation.navigate('Input6')}/>
+</View>
+<View style={{margin:20}}>
+        <Button title='Input7' onPress={()=>navigation.navigate('Input7')}/>
+</View>
+
+{/* <View style={{margin:20}}>
+        <Button title='Flip' onPress={()=>navigation.navigate('Flip')}/>
+</View> */}
 
 
 </ScrollView>

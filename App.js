@@ -16,7 +16,16 @@ import CarouselCards from './Components/carousel/CarouselCards';
 import Carouselindex from './Components/Carousel2/Carouselindex';
 import Carouselindex2 from './Components/Carousel3/Carouselindex2';
 import Carouselindex4 from './Components/Carousel4/Carouselindex4';
-import DropDown4Index from './Components/DropDown4/DropDown4Index';
+import Carouselindex5 from './Components/Carousel5/Carouselindex5';
+import Input from './Components/Input1/Input';
+import InputIndex2 from './Components/Input2/InputIndex2';
+import InputIndex3 from './Components/Input3/InputIndex3';
+import InputIndex4 from './Components/Input4/InputIndex4';
+import InputIndex5 from './Components/Input5/InputIndex5';
+import InputIndex6 from './Components/Input6/InputIndex6';
+import InputIndex7 from './Components/Input7/InputIndex7';
+// import Flip from './Components/FlipAnimation/Flip';
+// import DropDown4Index from './Components/DropDown4/DropDown4Index';
 
 export default function App() {
   const Stack = createNativeStackNavigator();
@@ -31,11 +40,20 @@ export default function App() {
         <Stack.Screen name="DropDown" component={DropDownIndex} />
         <Stack.Screen name="DropDown2" component={DropDown2Index} />
         <Stack.Screen name="DropDown3" component={DropDown3Index} />
-        <Stack.Screen name="DropDown4" component={DropDown4Index} />
+        {/* <Stack.Screen name="DropDown4" component={DropDown4Index} /> */}
         <Stack.Screen name="carousel" component={CarouselCards} />
         <Stack.Screen name="Carouselindex" component={Carouselindex} />
         <Stack.Screen name="Carouselindex2" component={Carouselindex2} />
         <Stack.Screen name="Carouselindex4" component={Carouselindex4} />
+        <Stack.Screen name="Carouselindex5" component={Carouselindex5} />
+        <Stack.Screen name="Input" component={Input} />
+        <Stack.Screen name="Input2" component={InputIndex2} />
+        <Stack.Screen name="Input3" component={InputIndex3} />
+        <Stack.Screen name="Input4" component={InputIndex4} />
+        <Stack.Screen name="Input5" component={InputIndex5} />
+        <Stack.Screen name="Input6" component={InputIndex6} />
+        <Stack.Screen name="Input7" component={InputIndex7} />
+        {/* <Stack.Screen name="Flip" component={Flip} /> */}
         <Stack.Screen name="Profile" component={ProfileIndex}  options={{
           headerLeft: null, headerShown:false,
         }}/>

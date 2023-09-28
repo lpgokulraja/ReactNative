@@ -2,7 +2,7 @@ import React from 'react';
 import { View, TextInput, TouchableOpacity, Text, Image } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 
-const Inputcomponents = ({title, placeholder}) => {
+const Inputcomponents = ({title, placeholder, onChange, onBlur, onFocus}) => {
   return (
     <View style={{alignItems:"center", alignItems:"center",justifyContent:"center", alignSelf:"center", marginTop:20}}>
 
@@ -31,15 +31,17 @@ const Inputcomponents = ({title, placeholder}) => {
             <TextInput
         style={{ 
             height: 50,
-            paddingEnd:"50%",
             paddingLeft:30,
             margin: 12,
             // borderWidth: 2,
             // borderColor:"violet",
             borderRadius:40,
             padding: 5,
-        }}
+          }}
+          onChangeText={(e) => onChange(e)}
             placeholder={placeholder}
+            onFocus={onFocus}
+            onBlur={onBlur}
             />
 
 <Image
