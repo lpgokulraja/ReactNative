@@ -85,6 +85,24 @@ export default function Index11({navigation}){
 <View style={{margin:20}}>
         <Button title='Input7' onPress={()=>navigation.navigate('Input7')}/>
 </View>
+<View style={{margin:20}}>
+        <Button title='Card1' onPress={()=>navigation.navigate('CardIndex1')}/>
+</View>
+<View style={{margin:20}}>
+        <Button title='Card2' onPress={()=>navigation.navigate('CardIndex2')}/>
+</View>
+<View style={{margin:20}}>
+        <Button title='Card3' onPress={()=>navigation.navigate('CardIndex3')}/>
+</View>
+<View style={{margin:20}}>
+        <Button title='Card4' onPress={()=>navigation.navigate('CardIndex4')}/>
+</View>
+<View style={{margin:20}}>
+        <Button title='Card5' onPress={()=>navigation.navigate('CardIndex5')}/>
+</View>
+<View style={{margin:20}}>
+        <Button title='Card6' onPress={()=>navigation.navigate('CardIndex6')}/>
+</View>
 
 {/* <View style={{margin:20}}>
         <Button title='Flip' onPress={()=>navigation.navigate('Flip')}/>

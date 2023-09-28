@@ -24,6 +24,12 @@ import InputIndex4 from './Components/Input4/InputIndex4';
 import InputIndex5 from './Components/Input5/InputIndex5';
 import InputIndex6 from './Components/Input6/InputIndex6';
 import InputIndex7 from './Components/Input7/InputIndex7';
+import CardIndex1 from './Components/Card/Card1/CardIndex1';
+import CardIndex2 from './Components/Card/Card2/CardIndex2';
+import CardIndex3 from './Components/Card/Card3/CardIndex3';
+import CardIndex4 from './Components/Card/Card4/CardIndex4';
+import CardIndex5 from './Components/Card/Card5/CardIndex5';
+import Cardindex6 from './Components/Card/Card6/CardIndex6';
 // import Flip from './Components/FlipAnimation/Flip';
 // import DropDown4Index from './Components/DropDown4/DropDown4Index';
 
@@ -53,6 +59,12 @@ export default function App() {
         <Stack.Screen name="Input5" component={InputIndex5} />
         <Stack.Screen name="Input6" component={InputIndex6} />
         <Stack.Screen name="Input7" component={InputIndex7} />
+        <Stack.Screen name="CardIndex1" component={CardIndex1} />
+        <Stack.Screen name="CardIndex2" component={CardIndex2} />
+        <Stack.Screen name="CardIndex3" component={CardIndex3} />
+        <Stack.Screen name="CardIndex4" component={CardIndex4} />
+        <Stack.Screen name="CardIndex5" component={CardIndex5} />
+        <Stack.Screen name="CardIndex6" component={Cardindex6} />
         {/* <Stack.Screen name="Flip" component={Flip} /> */}
         <Stack.Screen name="Profile" component={ProfileIndex}  options={{
           headerLeft: null, headerShown:false,
